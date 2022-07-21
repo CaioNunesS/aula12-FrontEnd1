@@ -1,0 +1,97 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+outline: none;
+list-style: none;
+text-decoration: none;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #F0A83E;
+    padding: 0px 40px;
+
+    h1{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0px;
+        margin: 0;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .main-header{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        }
+        nav{
+            padding-bottom: 10px;
+        }
+
+    }
+    @media (max-width: 540px){
+        .main-header{
+            font-size: 20px;
+        }
+    }
+
+    .first-section{
+        display: flex;
+        justify-content: center;
+        justify-content: end;
+
+        background-image:url(./imgs/bowl-and-pet-daities-on-green-background\ 1\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 409px;
+
+        div{
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 40px;
+        }
+
+        h3{
+            background-color: #f0f8ff;
+            border-radius: 5px;
+            font-size: 30px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 16px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .button-main-section{
+            background-color: #F0A83E;
+            width: 141px;
+            height: 49px;
+            color: #ffffff;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 7px;
+        }
+    }
+    

@@ -1,57 +1,87 @@
 * {
-
-    padding: 0;
-    margin: 0;
-    outline: none;
-    box-sizing: border-box;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
 }
 
-.first-section {
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #F0A83E;
+  padding: 0px 40px;
+}
+.main-header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.main-header ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
 
-    background-image: url('https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1656288000&Signature=Ce9Qtrco9bL0JY7aV8GDyOZYCN5LAbncPWLbw5Ry81NWgJ2J323ENxQ15sbOlp0RYZBbIRnUh6WJR26CU3wOWTElubL~o2rKJs5Y~McV2b2fcrxwF8w7JTjp5HvuIhmqUZoz-H-WMiUq1goHU30pScYEsrNP0mD9TymStxDH~eSItzw4I1JFcXABbNjrQaHLZKec5D5MDijCKFcJ6~0Vu~m8m9ERvt9HXnrlJ5JOo-vOvqUUGlo5c98LxRG8hAELJA-rhhsH8F22kU6yXF76IxZU4-QhDYaJ3G7FZkmjKJ0dv6~ngEM3JHSoRwtRKqYIgw~Qn9SbMWQuodI4PPn3CQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
-    background-position: left;
-    background-size: cover;
-    height: 600px;
+@media (max-width: 990px) {
+  .main-header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
-    padding: 60px;
-
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  nav {
+    padding-bottom: 10px;
+  }
 }
-header {display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #F0A83E;
-   
+@media (max-width: 540px) {
+  .main-header {
+    font-size: 20px;
+  }
 }
-
-    
-    
-
-
-.list
-{
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    list-style: none;
-    gap: 50px;
-    align-items: center;
- 
+.first-section {
+  display: flex;
+  justify-content: center;
+  justify-content: end;
+  background-image: url(./imgs/bowl-and-pet-daities-on-green-background\ 1\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 409px;
 }
 .first-section div {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
 }
-
-.first-section div h1 {
-
-    color: white;
-    font-size: 72px;
- }
+.first-section h3 {
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.first-section p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.first-section .button-main-section {
+  background-color: #F0A83E;
+  width: 141px;
+  height: 49px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 7px;
+}/*# sourceMappingURL=style.css.map */
