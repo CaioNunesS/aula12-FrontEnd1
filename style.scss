@@ -94,4 +94,44 @@ text-decoration: none;
             padding-top: 7px;
         }
     }
+    .second-section{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+
+        ul{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #353331;
+            font-size: 20px;
+        }
+
+    }
+    
+    .divs-second-section{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+        & div{
+            background-color: #f6fafe;
+        }
+
+        & h5{
+            font-size: 15px;
+
+        }
+        & h6{
+            color: #F0A83E;
+            font-size: 15px;
+        }
+    }
     
